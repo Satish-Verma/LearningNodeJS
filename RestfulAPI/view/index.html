@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NODEJS RESTFUL API TUTORIALS</title>
+    <style media="screen">
+      form{
+        width: 100%;
+        height: 100px;
+        padding: 0px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="http://127.0.0.1:8081/addUser" method="post">
+      <h3>Post request</h3>
+      <button type="submit" name="button">Add a user user4</button>
+    </form>
+    <hr>
+    <form action="http://127.0.0.1:8081/listUsers" method="get">
+      <h3>GET request</h3>
+      <button type="submit" name="button">Get the full list of data</button>
+    </form>
+    <hr>
+    <form action="http://127.0.0.1:8081/2" method="get">
+      <h3>Get request for ID:2</h3>
+      <button type="submit" name="button">Get the 2nd Userdata</button>
+    </form>
+    <hr>
+    
+  </body>
+</html>
